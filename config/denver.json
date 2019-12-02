@@ -1,0 +1,16 @@
+{
+  "title": "Denver",
+  "passes": 10,
+  "urls": [
+    "https://www.grubhub.com/delivery/co-denver",
+    "https://www.doordash.com/food-delivery/denver-co-restaurants/",
+    "https://www.ubereats.com/en-US/denver/",
+    "https://postmates.com/delivery/denver"
+  ],
+  "lighthouseConfig": {
+    "extends": "lighthouse:default",
+    "settings": {
+      "onlyCategories": ["performance"]
+    }
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "https://www.grubhub.com/delivery/co-denver/pizza": {
+    "firstMeaningfulPaint": {
+      "values": [
+        5553.424000000001
+      ],
+      "total": 5553.424000000001,
+      "count": 1,
+      "high": 5553.424000000001,
+      "low": 5553.424000000001,
+      "average": 5553.424000000001,
+      "standardDeviation": 0
+    },
+    "speedIndex": {
+      "values": [
+        6952.906973727639
+      ],
+      "total": 6952.906973727639,
+      "count": 1,
+      "high": 6952.906973727639,
+      "low": 6952.906973727639,
+      "average": 6952.906973727639,
+      "standardDeviation": 0
+    },
+    "firstCpuIdle": {
+      "values": [
+        11694.913
+      ],
+      "total": 11694.913,
+      "count": 1,
+      "high": 11694.913,
+      "low": 11694.913,
+      "average": 11694.913,
+      "standardDeviation": 0
+    },
+    "timeToInteractive": {
+      "values": [
+        15021.135999999993
+      ],
+      "total": 15021.135999999993,
+      "count": 1,
+      "high": 15021.135999999993,
+      "low": 15021.135999999993,
+      "average": 15021.135999999993,
+      "standardDeviation": 0
+    },
+    "lighthouseScore": {
+      "values": [
+        0.24
+      ],
+      "total": 0.24,
+      "count": 1,
+      "high": 0.24,
+      "low": 0.24,
+      "average": 0.24,
+      "standardDeviation": 0
+    }
+  },
+  "https://www.doordash.com/food-delivery/denver-co-restaurants/pizza/": {
+    "firstMeaningfulPaint": {
+      "values": [
+        10140.1365
+      ],
+      "total": 10140.1365,
+      "count": 1,
+      "high": 10140.1365,
+      "low": 10140.1365,
+      "average": 10140.1365,
+      "standardDeviation": 0
+    },
+    "speedIndex": {
+      "values": [
+        13085.028825722513
+      ],
+      "total": 13085.028825722513,
+      "count": 1,
+      "high": 13085.028825722513,
+      "low": 13085.028825722513,
+      "average": 13085.028825722513,
+      "standardDeviation": 0
+    },
+    "firstCpuIdle": {
+      "values": [
+        10140.1365
+      ],
+      "total": 10140.1365,
+      "count": 1,
+      "high": 10140.1365,
+      "low": 10140.1365,
+      "average": 10140.1365,
+      "standardDeviation": 0
+    },
+    "timeToInteractive": {
+      "values": [
+        19906.600500000008
+      ],
+      "total": 19906.600500000008,
+      "count": 1,
+      "high": 19906.600500000008,
+      "low": 19906.600500000008,
+      "average": 19906.600500000008,
+      "standardDeviation": 0
+    },
+    "lighthouseScore": {
+      "values": [
+        0.05
+      ],
+      "total": 0.05,
+      "count": 1,
+      "high": 0.05,
+      "low": 0.05,
+      "average": 0.05,
+      "standardDeviation": 0
+    }
+  },
+  "https://www.ubereats.com/en-US/denver/pizza-delivery/": {
+    "firstMeaningfulPaint": {
+      "values": [
+        3600.3450000000003
+      ],
+      "total": 3600.3450000000003,
+      "count": 1,
+      "high": 3600.3450000000003,
+      "low": 3600.3450000000003,
+      "average": 3600.3450000000003,
+      "standardDeviation": 0
+    },
+    "speedIndex": {
+      "values": [
+        2638.4210690549253
+      ],
+      "total": 2638.4210690549253,
+      "count": 1,
+      "high": 2638.4210690549253,
+      "low": 2638.4210690549253,
+      "average": 2638.4210690549253,
+      "standardDeviation": 0
+    },
+    "firstCpuIdle": {
+      "values": [
+        8182.962999999999
+      ],
+      "total": 8182.962999999999,
+      "count": 1,
+      "high": 8182.962999999999,
+      "low": 8182.962999999999,
+      "average": 8182.962999999999,
+      "standardDeviation": 0
+    },
+    "timeToInteractive": {
+      "values": [
+        8810.325499999999
+      ],
+      "total": 8810.325499999999,
+      "count": 1,
+      "high": 8810.325499999999,
+      "low": 8810.325499999999,
+      "average": 8810.325499999999,
+      "standardDeviation": 0
+    },
+    "lighthouseScore": {
+      "values": [
+        0.65
+      ],
+      "total": 0.65,
+      "count": 1,
+      "high": 0.65,
+      "low": 0.65,
+      "average": 0.65,
+      "standardDeviation": 0
+    }
+  },
+  "https://postmates.com/delivery/denver/pizza": {
+    "firstMeaningfulPaint": {
+      "values": [
+        3942.235
+      ],
+      "total": 3942.235,
+      "count": 1,
+      "high": 3942.235,
+      "low": 3942.235,
+      "average": 3942.235,
+      "standardDeviation": 0
+    },
+    "speedIndex": {
+      "values": [
+        8831.293376492253
+      ],
+      "total": 8831.293376492253,
+      "count": 1,
+      "high": 8831.293376492253,
+      "low": 8831.293376492253,
+      "average": 8831.293376492253,
+      "standardDeviation": 0
+    },
+    "firstCpuIdle": {
+      "values": [
+        3942.235
+      ],
+      "total": 3942.235,
+      "count": 1,
+      "high": 3942.235,
+      "low": 3942.235,
+      "average": 3942.235,
+      "standardDeviation": 0
+    },
+    "timeToInteractive": {
+      "values": [
+        19133.37649999999
+      ],
+      "total": 19133.37649999999,
+      "count": 1,
+      "high": 19133.37649999999,
+      "low": 19133.37649999999,
+      "average": 19133.37649999999,
+      "standardDeviation": 0
+    },
+    "lighthouseScore": {
+      "values": [
+        0.34
+      ],
+      "total": 0.34,
+      "count": 1,
+      "high": 0.34,
+      "low": 0.34,
+      "average": 0.34,
+      "standardDeviation": 0
+    }
+  },
+  "https://www.trycaviar.com/sacramento/c/pizza": {
+    "firstMeaningfulPaint": {
+      "values": [
+        2512.3779999999997
+      ],
+      "total": 2512.3779999999997,
+      "count": 1,
+      "high": 2512.3779999999997,
+      "low": 2512.3779999999997,
+      "average": 2512.3779999999997,
+      "standardDeviation": 0
+    },
+    "speedIndex": {
+      "values": [
+        9037.7817039242
+      ],
+      "total": 9037.7817039242,
+      "count": 1,
+      "high": 9037.7817039242,
+      "low": 9037.7817039242,
+      "average": 9037.7817039242,
+      "standardDeviation": 0
+    },
+    "firstCpuIdle": {
+      "values": [
+        10238.756000000001
+      ],
+      "total": 10238.756000000001,
+      "count": 1,
+      "high": 10238.756000000001,
+      "low": 10238.756000000001,
+      "average": 10238.756000000001,
+      "standardDeviation": 0
+    },
+    "timeToInteractive": {
+      "values": [
+        13176.831000000002
+      ],
+      "total": 13176.831000000002,
+      "count": 1,
+      "high": 13176.831000000002,
+      "low": 13176.831000000002,
+      "average": 13176.831000000002,
+      "standardDeviation": 0
+    },
+    "lighthouseScore": {
+      "values": [
+        0.33
+      ],
+      "total": 0.33,
+      "count": 1,
+      "high": 0.33,
+      "low": 0.33,
+      "average": 0.33,
+      "standardDeviation": 0
+    }
+  }
+}

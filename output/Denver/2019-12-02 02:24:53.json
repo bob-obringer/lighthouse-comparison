@@ -1,0 +1,230 @@
+{
+  "https://www.grubhub.com/delivery/co-denver": {
+    "firstMeaningfulPaint": {
+      "values": [
+        5949.191500000001
+      ],
+      "total": 5949.191500000001,
+      "count": 1,
+      "high": 5949.191500000001,
+      "low": 5949.191500000001,
+      "average": 5949.191500000001,
+      "standardDeviation": 0
+    },
+    "speedIndex": {
+      "values": [
+        6582.1187925278955
+      ],
+      "total": 6582.1187925278955,
+      "count": 1,
+      "high": 6582.1187925278955,
+      "low": 6582.1187925278955,
+      "average": 6582.1187925278955,
+      "standardDeviation": 0
+    },
+    "firstCpuIdle": {
+      "values": [
+        12347.867999999999
+      ],
+      "total": 12347.867999999999,
+      "count": 1,
+      "high": 12347.867999999999,
+      "low": 12347.867999999999,
+      "average": 12347.867999999999,
+      "standardDeviation": 0
+    },
+    "timeToInteractive": {
+      "values": [
+        17608.507499999992
+      ],
+      "total": 17608.507499999992,
+      "count": 1,
+      "high": 17608.507499999992,
+      "low": 17608.507499999992,
+      "average": 17608.507499999992,
+      "standardDeviation": 0
+    },
+    "lighthouseScore": {
+      "values": [
+        0.23
+      ],
+      "total": 0.23,
+      "count": 1,
+      "high": 0.23,
+      "low": 0.23,
+      "average": 0.23,
+      "standardDeviation": 0
+    }
+  },
+  "https://www.doordash.com/food-delivery/denver-co-restaurants/": {
+    "firstMeaningfulPaint": {
+      "values": [
+        8723.628
+      ],
+      "total": 8723.628,
+      "count": 1,
+      "high": 8723.628,
+      "low": 8723.628,
+      "average": 8723.628,
+      "standardDeviation": 0
+    },
+    "speedIndex": {
+      "values": [
+        9919.98110312539
+      ],
+      "total": 9919.98110312539,
+      "count": 1,
+      "high": 9919.98110312539,
+      "low": 9919.98110312539,
+      "average": 9919.98110312539,
+      "standardDeviation": 0
+    },
+    "firstCpuIdle": {
+      "values": [
+        8723.628
+      ],
+      "total": 8723.628,
+      "count": 1,
+      "high": 8723.628,
+      "low": 8723.628,
+      "average": 8723.628,
+      "standardDeviation": 0
+    },
+    "timeToInteractive": {
+      "values": [
+        17201.39000000001
+      ],
+      "total": 17201.39000000001,
+      "count": 1,
+      "high": 17201.39000000001,
+      "low": 17201.39000000001,
+      "average": 17201.39000000001,
+      "standardDeviation": 0
+    },
+    "lighthouseScore": {
+      "values": [
+        0.09
+      ],
+      "total": 0.09,
+      "count": 1,
+      "high": 0.09,
+      "low": 0.09,
+      "average": 0.09,
+      "standardDeviation": 0
+    }
+  },
+  "https://www.ubereats.com/en-US/denver/": {
+    "firstMeaningfulPaint": {
+      "values": [
+        4577.3229999999985
+      ],
+      "total": 4577.3229999999985,
+      "count": 1,
+      "high": 4577.3229999999985,
+      "low": 4577.3229999999985,
+      "average": 4577.3229999999985,
+      "standardDeviation": 0
+    },
+    "speedIndex": {
+      "values": [
+        4372.190229147613
+      ],
+      "total": 4372.190229147613,
+      "count": 1,
+      "high": 4372.190229147613,
+      "low": 4372.190229147613,
+      "average": 4372.190229147613,
+      "standardDeviation": 0
+    },
+    "firstCpuIdle": {
+      "values": [
+        9146.559
+      ],
+      "total": 9146.559,
+      "count": 1,
+      "high": 9146.559,
+      "low": 9146.559,
+      "average": 9146.559,
+      "standardDeviation": 0
+    },
+    "timeToInteractive": {
+      "values": [
+        10191.642
+      ],
+      "total": 10191.642,
+      "count": 1,
+      "high": 10191.642,
+      "low": 10191.642,
+      "average": 10191.642,
+      "standardDeviation": 0
+    },
+    "lighthouseScore": {
+      "values": [
+        0.47
+      ],
+      "total": 0.47,
+      "count": 1,
+      "high": 0.47,
+      "low": 0.47,
+      "average": 0.47,
+      "standardDeviation": 0
+    }
+  },
+  "https://postmates.com/delivery/denver": {
+    "firstMeaningfulPaint": {
+      "values": [
+        3640.636
+      ],
+      "total": 3640.636,
+      "count": 1,
+      "high": 3640.636,
+      "low": 3640.636,
+      "average": 3640.636,
+      "standardDeviation": 0
+    },
+    "speedIndex": {
+      "values": [
+        8119.58460671479
+      ],
+      "total": 8119.58460671479,
+      "count": 1,
+      "high": 8119.58460671479,
+      "low": 8119.58460671479,
+      "average": 8119.58460671479,
+      "standardDeviation": 0
+    },
+    "firstCpuIdle": {
+      "values": [
+        3640.636
+      ],
+      "total": 3640.636,
+      "count": 1,
+      "high": 3640.636,
+      "low": 3640.636,
+      "average": 3640.636,
+      "standardDeviation": 0
+    },
+    "timeToInteractive": {
+      "values": [
+        22289.864999999998
+      ],
+      "total": 22289.864999999998,
+      "count": 1,
+      "high": 22289.864999999998,
+      "low": 22289.864999999998,
+      "average": 22289.864999999998,
+      "standardDeviation": 0
+    },
+    "lighthouseScore": {
+      "values": [
+        0.36
+      ],
+      "total": 0.36,
+      "count": 1,
+      "high": 0.36,
+      "low": 0.36,
+      "average": 0.36,
+      "standardDeviation": 0
+    }
+  }
+}
