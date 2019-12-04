@@ -1,5 +1,5 @@
 const getLighthouseResults = require('./src/lighthouse');
-const getBasicReport = require('./reports/basic');
+const getBasicReport = require('./src/reports/basic');
 const writeReportFiles = require('./src/writeReportFiles');
 
 const {
