@@ -1,3 +1,5 @@
+#!/usr/bin/node
+
 const path = require('path');
 const getLighthouseResults = require('./src/lighthouse');
 const getBasicReport = require('./src/reports/basic');
