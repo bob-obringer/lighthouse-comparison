@@ -4,9 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "audit:homepage": "node ./index.js --config=homepage",
-    "audit:denver": "node ./index.js --config=denver",
-    "audit:denver-pizza": "node ./index.js --config=denver-pizza"
+    "lighthouse": "node ./index.js"
   },
   "dependencies": {
     "chrome-launcher": "^0.12.0",

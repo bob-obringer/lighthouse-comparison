@@ -10,11 +10,11 @@ const getDateTime = () => {
     return `${year}-${month}-${day} ${time}`
 };
 
-const writeReportFiles = ({ title, table, data }) => {
-    const folder = `output/${title}`;
-    const fileName = `${folder}/${getDateTime()}`;
+const writeReportFiles = ({ title, table, data, folder }) => {
+    const outputFolder = `${folder}/${title}`;
+    const fileName = `${outputFolder}/${getDateTime()}`;
 
-    fs.mkdirSync(folder, { recursive: true });
+    fs.mkdirSync(outputFolder, { recursive: true });
     fs.writeFileSync(`${fileName}.txt`, table, "utf-8");
     fs.writeFileSync(`${fileName}.json`, JSON.stringify(data, null, 2), "utf-8");
 };

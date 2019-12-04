@@ -1,4 +1,4 @@
-const readResults = (results) => {
+const mapLighthouseReport = (results) => {
     const {
         lhr: {
             audits: {
@@ -32,4 +32,4 @@ const readResults = (results) => {
     }
 };
 
-module.exports = readResults;
+module.exports = mapLighthouseReport;

@@ -1,5 +1,5 @@
 const createReportTable = require('./createReportTable');
-const parseResults = require('./parseResults');
+const parseResults = require('./calculateResults');
 
 const getBasicReport = ({ results, title, passes }) => {
     const data = parseResults(results);

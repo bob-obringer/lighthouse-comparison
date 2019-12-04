@@ -1,15 +1,21 @@
+const path = require('path');
 const getLighthouseResults = require('./src/lighthouse');
 const getBasicReport = require('./src/reports/basic');
 const writeReportFiles = require('./src/writeReportFiles');
 
 const {
-    config = 'homepage',
+    config,
+    output = '.',
+    passes: argPasses,
 } = require('yargs').argv;
+
+const configPath = path.resolve(__dirname, config);
+const outputFolder = path.resolve(__dirname, output, 'lighthouse-reports');
 
 const {
     urls,
     title,
-    passes = 5,
+    passes: configPasses,
     lighthouseOpts,
     lighthouseConfig = {
         extends: 'lighthouse:default',
@@ -17,7 +23,9 @@ const {
             onlyCategories: ['performance'],
         }
     }
-} = require(`./config/${config}.json`);
+} = require(configPath);
+
+const passes = argPasses || configPasses || 5;
 
 (async () => {
     const results = await getLighthouseResults({
@@ -32,7 +40,7 @@ const {
         table
     } = getBasicReport({ results, title, passes });
 
-    writeReportFiles({ title, table, data });
+    writeReportFiles({ title, table, data, folder: outputFolder });
 
     console.log();
     console.log(table);
