@@ -2,6 +2,7 @@
   "name": "lighthouse-industry",
   "version": "1.0.0",
   "main": "index.js",
+  "bin": "index.js",
   "license": "MIT",
   "scripts": {
     "lighthouse": "node ./index.js"
