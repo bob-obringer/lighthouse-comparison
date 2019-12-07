@@ -2,9 +2,7 @@ const titles = {
     URL: 25,
     Score: 8,
     FMP: 8,
-    TTI: 8,
-    Speed: 8,
-    Idle: 8
+    TBT: 8
 };
 
 const getBorderRow = () => "-".repeat(Object.values(titles).reduce((a, v) => a + v + 1, 1));
@@ -21,9 +19,7 @@ const formatTime = (time) => (time / 1000).toFixed(1).toLocaleString();
 
 const getResultRow = ([url, {
     firstMeaningfulPaint,
-    speedIndex,
-    firstCpuIdle,
-    timeToInteractive,
+    totalBlockingTime,
     lighthouseScore,
 }]) => {
     const urlCol = url.split('//')[1].split('/')[0].replace('www.', '').padEnd(titles.URL - 1);
@@ -31,12 +27,10 @@ const getResultRow = ([url, {
     const scoreString = Math.round(lighthouseScore.average * 100).toString();
     const score = scoreString.padStart(titles.Score - 1);
 
-    const idle = formatTime(firstCpuIdle.average).padStart(titles.Idle - 1);
-    const si = formatTime(speedIndex.average).padStart(titles.Speed - 1);
-    const tti = formatTime(timeToInteractive.average).padStart(titles.TTI - 1);
+    const tbt = formatTime(totalBlockingTime.average).padStart(titles.TBT - 1);
     const fmp = formatTime(firstMeaningfulPaint.average).padStart(titles.FMP - 1);
 
-    return `| ${urlCol}|${score} |${fmp} |${tti} |${si} |${idle} |`;
+    return `| ${urlCol}|${score} |${fmp} |${tbt} |`;
 };
 
 const createReportTable = ({ data, title, passes }) => (

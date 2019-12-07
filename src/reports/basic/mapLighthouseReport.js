@@ -5,14 +5,8 @@ const mapLighthouseReport = (results) => {
                 "first-meaningful-paint": {
                     numericValue: firstMeaningfulPaint
                 },
-                "speed-index": {
-                    numericValue: speedIndex
-                },
-                "first-cpu-idle": {
-                    numericValue: firstCpuIdle
-                },
-                interactive: {
-                    numericValue: timeToInteractive
+                "total-blocking-time": {
+                    numericValue: totalBlockingTime
                 },
             },
             categories: {
@@ -25,9 +19,7 @@ const mapLighthouseReport = (results) => {
 
     return {
         firstMeaningfulPaint,
-        speedIndex,
-        firstCpuIdle,
-        timeToInteractive,
+        totalBlockingTime,
         lighthouseScore
     }
 };
